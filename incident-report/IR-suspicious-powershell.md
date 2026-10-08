@@ -55,10 +55,9 @@ Message=A new process has been created.
 
 ## Response & Mitigation Actions
 
-   1. Alert Triage: The SOC Analyst reviewed and validated the SIEM alert immediately upon receipt.
-   2. Origin Analysis: The analyst verified the network logs to ensure no malicious traffic was originating from outside systems.
-   3. Identity Verification: The user's account status was monitored until the temporary lockout period expired.
-   4. Validation: The analyst verified that the user successfully authenticated with correct credentials after the lockout cooldown ended.
+    Alert Triage: The SOC Analyst reviewed and validated the SIEM alert immediately upon receipt.
+    Identity Verification: The user's account status was monitored until the temporary lockout period expired.
+    Validation: The analyst verified that the user successfully authenticated with correct credentials after the lockout cooldown ended.
 
 ## Recommendations
 
